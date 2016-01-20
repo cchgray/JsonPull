@@ -10,6 +10,14 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var nameField: UITextField!
+    
+    @IBOutlet var addressField: UITextField!
+    
+    @IBOutlet var latField: UITextField!
+    
+    @IBOutlet var longField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
